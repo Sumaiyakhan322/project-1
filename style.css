@@ -22,9 +22,56 @@
     list-style: none;
 
 }
-.nav-links >ul >li a{
+.nav-links >ul >li a,.nav-links >ul >li{
     color: azure;
     text-decoration: none;
+    
     margin-right: 15px;
+    transition: 2s;
+    
 
 }
+
+.nav-links ul li a:hover{
+    color: red;
+}
+.nav-links ul li:hover {
+    
+    transform: scale(0.7);
+    
+    
+}
+
+/* banner section */
+  .banner-conatiner{
+    background-image: url('/images/background.png'),linear-gradient(45deg,black,rgb(59, 59, 59));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  .banner-img{
+    width: 300px;
+  }
+  .banner-title{
+    color: white;
+    font-size: 60px;
+  }
+  .banner-description{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .btn{
+    padding: 15px 25px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 25px;
+    transition: 2s;
+
+    
+  }
+  .btn:hover{
+    transform: translateY(40px);
+  }
