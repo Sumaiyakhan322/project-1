@@ -99,3 +99,42 @@
     margin-bottom: 20px;
     font-size: 18px;
 }
+/* services-section */
+.services-section{
+    background-image: url('/images/background.png'),linear-gradient(45deg,black,rgb(59, 59, 59));
+    padding: 40px 140px;
+}
+.services-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+   
+}
+.services-description{
+    width: 300px;
+    height: 300px;
+    margin: 60px;
+    text-align: center;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 12px;
+    padding: 20px 20px;
+   
+    
+}
+.services-title{
+    text-align: center;
+}
+.services-img{
+    width: 80px;
+}
+.services-description h1 ,p{
+    color: white;
+    margin-top: 20px;
+    
+}
+.services-description button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
